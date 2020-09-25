@@ -16,5 +16,5 @@
 
 - [x] 404 page
 - [x] about me page
-- [ ] family page
+- [x] family page
 - [ ] ...
