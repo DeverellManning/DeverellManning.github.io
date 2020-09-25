@@ -1,6 +1,15 @@
-#Welcome
+# **Welcome**
 
-//It's very easy to make some words **bold** and other words *italic* with Markdown. 
+### This is the landing page of Deverell's website on gitub pages. Glad your here.
+
+** THIS IS A WORK IN PROGRESS **
+
 
 
 [About Me](Dallen's About Me Webpage.html)
+
+
+- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
+- [x] list syntax required (any unordered or ordered list supported)
+- [x] this is a complete item
+- [ ] this is an incomplete item
