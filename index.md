@@ -26,7 +26,8 @@ Number of website hits:
 <a href="https://www.hitwebcounter.com" target="_blank">
 <img src="https://hitwebcounter.com/counter/counter.php?page=7678712&style=0001&nbdigits=5&type=ip&initCount=0" title="Total Website Hits" Alt="Web Hits"   border="0" /></a>             
 
-<div id="disqus_thread"></div>
+<p>
+<div id="disqus_thread" style="border-style: inset;border-color: coral;border-width: 7px;"></div>
 <script>
 
 /**
@@ -46,7 +47,7 @@ s.setAttribute('data-timestamp', +new Date());
 })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
+</p>
 <script id="dsq-count-scr" src="//https-deverellmanning-github-io.disqus.com/count.js" async></script>
 
                             
