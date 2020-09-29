@@ -14,7 +14,7 @@
 [What? a webpage work-in-progress](What.html)
 
 <hr>
-<frame src="Navigation/Sidebar.html" name="Menu" frameborder="NO" marginwidth="0" marginheight="10">
+<iframe src="https://deverellmanning.github.io/Navigation/Sidebar.html" style="border:none;" title="Iframe Example"></iframe>
 <hr>
 
 - [x] 404 page
