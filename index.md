@@ -14,7 +14,7 @@
 [What? a webpage work-in-progress](What.html)
 
 <hr>
-<iframe src="https://deverellmanning.github.io/Navigation/Sidebar.html" style="border:none;" title="Iframe Example"></iframe>
+<iframe src="https://deverellmanning.github.io/Navigation/Sidebar.html" style="position:absolute; right:2%;border:none;" title="Iframe Example" width="20%" ></iframe>
 <hr>
 
 - [x] 404 page
