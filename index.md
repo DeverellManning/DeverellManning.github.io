@@ -24,7 +24,7 @@
 Number of website hits:
 <!-- hitwebcounter Code START -->
 <a href="https://www.hitwebcounter.com" target="_blank">
-<img src="https://hitwebcounter.com/counter/counter.php?page=7678712&style=0001&nbdigits=5&type=ip&initCount=0" title="Total Website Hits" Alt="Web Hits"   border="0" /></a>             
+<img src="https://hitwebcounter.com/counter/counter.php?page=7678712&style=0001&nbdigits=5&type=ip&initCount=0" title="Total Website Hits" Alt="Web Hits"   border="0" /></a>             <frame src="Navigation/Sidebar.html" name="Menu" frameborder="NO" marginwidth="0" marginheight="10">
 
 <p>
 <div id="disqus_thread" style="border-style: inset;border-color: coral;border-width: 7px;"></div>
