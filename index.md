@@ -1,11 +1,11 @@
-# **Welcome**
-### This is the landing page of Deverell's website on gitub pages. Glad your here.
+<h1> <b> Welcome </b> </h1>
+<h3>This is the landing page of Deverell's website on gitub pages. Glad your here.</h3>
 
----
-**THIS IS A WORK IN PROGRESS**
----
+<hr>
+<b>THIS IS A WORK IN PROGRESS</b>
+<hr>
 
-**** Links:
+<h4>Links:</h4>
 
 [About Me Webpage](Dallen's About Me Webpage.html)  
  
@@ -13,19 +13,20 @@
  
 [What? a webpage work-in-progress](What.html)
 
----
-
+<hr>
+<frame src="Navigation/Sidebar.html" name="Menu" frameborder="NO" marginwidth="0" marginheight="10">
+<hr>
 
 - [x] 404 page
 - [x] about me page
 - [x] family page
 - [ ] ...
 
-Number of website hits:
+<p>Number of website hits:
 <!-- hitwebcounter Code START -->
 <a href="https://www.hitwebcounter.com" target="_blank">
-<img src="https://hitwebcounter.com/counter/counter.php?page=7678712&style=0001&nbdigits=5&type=ip&initCount=0" title="Total Website Hits" Alt="Web Hits"   border="0" /></a>             <frame src="Navigation/Sidebar.html" name="Menu" frameborder="NO" marginwidth="0" marginheight="10">
-
+<img src="https://hitwebcounter.com/counter/counter.php?page=7678712&style=0001&nbdigits=5&type=ip&initCount=0" title="Total Website Hits" Alt="Web Hits"   border="0" /></a>             
+</p>
 <p>
 <div id="disqus_thread" style="border-style: inset;border-color: coral;border-width: 7px;"></div>
 <script>
