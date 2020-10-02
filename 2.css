@@ -1,6 +1,6 @@
 
 body{
-  background-color: ##77a38d;
+  background-color: #77a38d;
 }
 
 h1 {
@@ -8,6 +8,7 @@ h1 {
 	text-align: center;
 	color: ##F0F0FF;
 	background-color: #0000FF;
+	font-family:arial;
 }
 
 hr{
