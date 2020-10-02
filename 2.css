@@ -1,15 +1,13 @@
 
 body{
-  background-color: #576
+  background-color: ##77a38d;
 }
 
-h1, b {
-  font-size:40;
-  text-align: center;
-  color:#114411;
-  background-color:blue;
-  background-blend-mode:multiply;
-  
+h1 {
+	font-size: 40;
+	text-align: center;
+	color: ##F0F0FF;
+	background-color: #0000FF;
 }
 
 hr{
