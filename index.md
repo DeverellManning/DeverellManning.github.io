@@ -6,12 +6,12 @@
 <hr>
 
 <h4>Links:</h4>
-
-[About Me Webpage](Dallen's About Me Webpage.html)  
+<a href="Dallen's About Me Webpage.html">About Me Webpage</a> 
  
-[Shurtleff Family Website](Shurtleff Family/index.html)
+ <a href="Shurtleff Family/index.html">Shurtleff Family Webpage</a> 
  
-[What? a webpage work-in-progress](What.html)
+ <a href="What.html">About Me Webpage</a> 
+[What? a webpage work-in-progress](Shurtleff Family/index.html)
 
 <hr>
 <iframe src="https://deverellmanning.github.io/Navigation/Sidebar.html" style="position:absolute; right:2%;border:none;" title="Iframe Example" width="20%" ></iframe>
