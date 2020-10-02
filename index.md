@@ -11,16 +11,18 @@
  <a href="Shurtleff Family/index.html">Shurtleff Family Webpage</a> 
  
  <a href="What.html">About Me Webpage</a> 
-[What? a webpage work-in-progress](Shurtleff Family/index.html)
+
 
 <hr>
 <iframe src="https://deverellmanning.github.io/Navigation/Sidebar.html" style="position:absolute; right:2%;border:none;" title="Iframe Example" width="20%" ></iframe>
 <hr>
 
-- [x] 404 page
-- [x] about me page
-- [x] family page
-- [ ] ...
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked">404 page</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked">about me page</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked">family page</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled">…</li>
+</ul>
 
 <p>Number of website hits:
 <!-- hitwebcounter Code START -->
