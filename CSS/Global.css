@@ -10,11 +10,12 @@ text-align:center;
 
 div.sidebar{
 float:right;
-  border:black solid;
+  border:solid black thick;
 }
 
 div.sidebar iframe{
-  width25%;
+  
   float:right;
   overflow: hidden;
+  
 }
