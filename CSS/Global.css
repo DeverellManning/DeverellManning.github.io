@@ -11,3 +11,9 @@ text-align:center;
 div.sidebar{
 float:right;
 }
+
+div.sidebar iframe{
+  width25%;
+  float:right;
+  overflow: hidden;
+}
