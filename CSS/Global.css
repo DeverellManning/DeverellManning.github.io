@@ -10,6 +10,7 @@ text-align:center;
 
 div.sidebar{
 float:right;
+  border:black solid;
 }
 
 div.sidebar iframe{
