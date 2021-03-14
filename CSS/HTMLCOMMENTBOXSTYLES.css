@@ -4,7 +4,7 @@ div .comment{
   position: relative;
   left:3%;
   outline:solid; 
-  width:calc(max-content + 10);
+  width:max-content;
 }
 div .commentbox{
   width:10;
