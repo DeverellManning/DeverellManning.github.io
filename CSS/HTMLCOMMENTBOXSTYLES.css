@@ -1,0 +1,23 @@
+div .comment{
+  font-family:arial;
+  background:whitesmoke;
+  position: relative;
+  left:3%;
+  outline:solid; 
+  width:calc(max-content + 10);
+}
+div .commentbox{
+  width:10;
+  
+}
+
+div .comment blockquote{
+  
+}
+
+#HCB_comment_box .hcb-comment-body{
+  font-size: 16
+}
+#HCB_comment_box b{
+  font-size:20
+}
