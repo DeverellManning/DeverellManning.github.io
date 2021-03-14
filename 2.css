@@ -2,6 +2,8 @@
 body{
   background-color: #77a38d;
 	font-size:16;
+	position:relative;
+	left:5%
 }
 
 h1 {
@@ -10,7 +12,7 @@ h1 {
 	color: ##F0F0FF;
 	background-color: #36d9eb;
 	font-family:arial;
-	background-radius:5px;
+	border-radius:5px;
 }
 
 hr{
