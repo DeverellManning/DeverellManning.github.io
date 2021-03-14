@@ -10,11 +10,12 @@ h1 {
 	color: ##F0F0FF;
 	background-color: #36d9eb;
 	font-family:arial;
+	background-radius:5px;
 }
 
 hr{
   width: 98%;
-height: 2px;
+height: 1px;
 background-color:whitesmoke;
   }
 
