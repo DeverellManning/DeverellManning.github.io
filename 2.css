@@ -12,13 +12,13 @@ h1 {
 	color: ##F0F0FF;
 	background-color: #36d9eb;
 	font-family:arial;
-	border-radius:5px;
+	border-radius:7px;
 }
 
 hr{
-  width: 98%;
+  width: 95%;
 height: 1px;
-background-color:whitesmoke;
+background-color:darkgrey;
   }
 
 p{
