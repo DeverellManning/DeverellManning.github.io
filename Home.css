@@ -1,0 +1,115 @@
+/*Update ID: C1*/
+body{
+	background-color: #7b8;
+	font-size:18;
+	position:relative;
+	left:5px;
+}
+
+.Title{
+	border-radius:8px;
+	background-color: #3de;
+	font-family:arial;
+}
+
+.Title h1 {
+	font-size: 40;
+	text-align: center;
+	color: #F0F0FF;
+	border-bottom: darkgray solid; 
+	line-height:50px;
+}
+
+.Title h3 {
+	line-height:0px;
+	font-size:20px;
+}
+
+.MainContent, .footer{
+	width: 75%;
+}
+
+div .Sidebar{	
+	width: 25%;
+	text-align: center;
+}
+
+
+
+
+hr{
+  width: 95%;
+  height: 1px;
+  background-color:darkgrey;
+}
+
+p{
+  line-height;
+  font-style:revert;
+  font-weight: 400;
+  font-size: 16px;
+  margin-left:15px;
+}
+
+a{
+  color:brown;
+  margin: 11px;
+  
+}
+
+a:hover{
+  color: #ff0000;
+  text-decoration: underline;
+  cursor:pointer;
+}
+
+a:visited{
+  color:brown;
+  margin: 11px;
+}
+
+table{
+  margin: 4px;
+  background: url(./checkers.jpg);
+}
+
+tbody{
+  outline:solid black;
+}
+th{
+  padding:3px;
+  outline:solid black thin;
+  background-color: grey;
+  cursor:context-menu;
+}
+td{
+  padding:2px;
+  outline:solid black thin;
+  background-color: grey;
+  cursor:context-menu;
+}
+
+td:hover{
+  transition: 1.5sec;
+  background-color: lightgray;
+}
+
+
+
+
+hi{
+
+  font-style:revert;
+  font-weight: 400;
+  font-size: 16px;
+  background: yellow;
+}
+
+f{
+  border-top:solid;
+    border-top: thin; 
+    border-top:black;
+  margin-left:10%;
+  font-size:small;
+  font-style:italic;
+}
