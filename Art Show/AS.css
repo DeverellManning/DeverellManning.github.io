@@ -1,0 +1,20 @@
+body{
+  background-image: url("https://deverellmanning.github.io/Art Show/trianglify-lowres.png");
+  background-size:cover;
+}
+
+.Sidebar{
+  background: grey;
+}
+
+p{
+  font-size: 18;
+}
+
+h1{
+  font-size: 40;
+}
+
+.Title{
+  background: lightskyblue;
+}
