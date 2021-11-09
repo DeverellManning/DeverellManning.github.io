@@ -36,5 +36,5 @@
 .window2 a { font-family:Arial; font-size:12px; color:#E4BDA0; text-decoration:none;  }
 .window2 a:hover { font-family:Arial; font-size:12px; color:#E79061; text-decoration:underline;  }
 body { background: rgba(22, 22, 22, 1); background-image: url(//static.iclanwebsites.com/themes/theme_42/themebuilder_qcax_bg.jpg), url(//static.iclanwebsites.com/themes/theme_42/themebuilder_wejf_bgg2.jpg); background-repeat: no-repeat, repeat-y; background-position: top center, top center; background-attachment: fixed, scroll; background-size: auto, auto; }
-.MainContent { background-image: url(//static.iclanwebsites.com/themes/theme_42/themebuilder_rd2v_bgg.jpg); background-repeat: repeat; background-position: top center; background-size: auto; }
+.Page { background-image: url(//static.iclanwebsites.com/themes/theme_42/themebuilder_rd2v_bgg.jpg); background-repeat: repeat; background-position: top center; background-size: auto; }
  .right_panels { margin:0px 0px 0px 3px; } .left_panels { margin:0px 0px 0px 3px; }
