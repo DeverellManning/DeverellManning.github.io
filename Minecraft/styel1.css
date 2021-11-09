@@ -23,9 +23,9 @@
 .panel_top_right { background-image: url(//static.iclanwebsites.com/themes/theme_42/themebuilder_99gj_toppanel.png); background-repeat: repeat-x; background-position: top center; background-size: auto; height:4px; }
 .panel_bottom_left { background-image: url(//static.iclanwebsites.com/themes/theme_42/themebuilder_31ie_sidepanel.png); background-repeat: repeat-x; background-position: top center; background-size: auto; height:4px; }
 .panel_bottom_right { background-image: url(//static.iclanwebsites.com/themes/theme_42/themebuilder_31ie_sidepanel.png); background-repeat: repeat-x; background-position: top center; background-size: auto; height:4px; }
-.title1 { background-image: url(//static.iclanwebsites.com/themes/theme_42/themebuilder_yt8p_maintitle.png); background-repeat: repeat-x; background-position: top left; background-size: auto; line-height:34px; height:34px; padding-top: 1px !important; padding-right: 1px !important; padding-bottom: 1px !important; padding-left: 1px !important; font-family:Arial; font-size:13px; color:#FFFFFF; text-align: center; text-shadow: #000000 1px 1px 1px; text-decoration:none; font-weight:bold; }
-.title1 a { font-family:Arial; font-size:13px; color:#E6E6E6; text-decoration:none;  }
-.title1 a:hover { font-family:Arial; font-size:13px; color:#CCCCCC; text-decoration:underline;  }
+.Title { background-image: url(//static.iclanwebsites.com/themes/theme_42/themebuilder_yt8p_maintitle.png); background-repeat: repeat-x; background-position: top left; background-size: auto; line-height:34px; height:34px; padding-top: 1px !important; padding-right: 1px !important; padding-bottom: 1px !important; padding-left: 1px !important; font-family:Arial; font-size:13px; color:#FFFFFF; text-align: center; text-shadow: #000000 1px 1px 1px; text-decoration:none; font-weight:bold; }
+.Title a { font-family:Arial; font-size:13px; color:#E6E6E6; text-decoration:none;  }
+.Title a:hover { font-family:Arial; font-size:13px; color:#CCCCCC; text-decoration:underline;  }
 .window1 { background: rgba(255, 255, 255, 0.1); line-height:25px; padding-top: 10px !important; padding-right: 10px !important; padding-bottom: 10px !important; padding-left: 10px !important; font-family:Arial; font-size:12px; color:#DAA67E; text-shadow: #000000 1px 1px 1px; text-decoration:none; }
 .window1 a { font-family:Arial; font-size:12px; color:#FFFFFF; text-decoration:none;  }
 .window1 a:hover { font-family:Arial; font-size:12px; color:#E6E6E6; text-decoration:underline;  }
