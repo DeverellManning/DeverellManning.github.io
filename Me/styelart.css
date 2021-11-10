@@ -1,0 +1,37 @@
+div.sidebar{
+background:gray;
+position:fixed;
+float:right;
+right:-300;
+transition:1s;
+z-index:2
+}
+
+div.sidebar:hover{
+right:0%;
+transition:2s;
+}
+
+body{
+background: #1C6EA4;
+background: -moz-radial-gradient(center, #1C6EA4 0%, #2388CB 50%, #144E75 100%);
+background: -webkit-radial-gradient(center, #1C6EA4 0%, #2388CB 50%, #144E75 100%);
+background: radial-gradient(ellipse at center, #1C6EA4 0%, #2388CB 50%, #144E75 100%);
+overflow-x:hidden;
+}
+
+div.Title{
+background:blue;
+}
+div.MainContent{
+width:100%;
+}
+div.Footer{
+position:fixed;
+left:0;
+bottom:0;
+}
+
+td{
+outline:black solid;
+}
