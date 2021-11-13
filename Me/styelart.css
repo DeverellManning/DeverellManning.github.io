@@ -2,14 +2,17 @@ div.sidebar{
 background:gray;
 position:fixed;
 float:right;
-right:-300;
+bottom:0;
+right:-305;
+border-left:black 25px solid;
 transition:1s;
 z-index:2
 }
 
 div.sidebar:hover{
-right:0%;
+right:0;
 transition:2s;
+border-left:3px solid black;
 }
 
 body{
@@ -26,12 +29,22 @@ background:blue;
 div.MainContent{
 width:100%;
 }
+
 div.Footer{
 position:fixed;
 left:0;
 bottom:0;
+background:grey;
+height:10%;
+width:100%
+border-top: 4px ridge #000000;
 }
 
 td{
 outline:black solid;
 }
+td:hover{
+      -webkit-box-shadow: 0px 0px 23px 3px #EDFF3E; 
+box-shadow: 0px 0px 23px 3px #EDFF3E;
+}
+
