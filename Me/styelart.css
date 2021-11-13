@@ -2,7 +2,7 @@ div.sidebar{
 background:gray;
 position:fixed;
 float:right;
-bottom:0;
+bottom:30%;
 right:-305;
 border-left:black 25px solid;
 transition:1s;
