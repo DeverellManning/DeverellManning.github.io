@@ -41,7 +41,8 @@ border-top: 4px ridge #000000;
 }
 
 td{
-outline:black solid;
+      outline:black solid;
+      cursor: pointer;
 }
 td:hover{
       -webkit-box-shadow: 0px 0px 23px 3px #EDFF3E; 
