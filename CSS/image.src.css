@@ -11,7 +11,7 @@ img {
 }
 
 td{
-    background-image: url("https://deverellmanning.github.io/Assets/t.1x1.png");
+    background-image: url("./download.jpg");
 }
 td:hover{
     background:lightgreen;
