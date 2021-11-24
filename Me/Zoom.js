@@ -1,4 +1,5 @@
 function zoom(imgs) {
+  console.log("zoom")
   // Get the expanded image
   var expandImg = document.getElementById("expandedImg");
   // Get the image text
