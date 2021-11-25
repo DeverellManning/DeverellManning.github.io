@@ -49,3 +49,24 @@ td:hover{
 box-shadow: 0px 0px 23px 3px #EDFF3E;
 }
 
+.container{
+}
+
+#expandedImg{
+      position:fixed;
+      left:10%;
+      top:1%;
+      height:99%;
+      overflow:scroll;
+      right:0;left:0;
+      margin:auto;
+}
+
+span.closebtn{
+      position:fixed;
+      left:50%;
+      top:1%;
+      color:black;
+      z-index:4;
+}
+
