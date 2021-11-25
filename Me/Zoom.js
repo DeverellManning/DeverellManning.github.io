@@ -11,3 +11,18 @@ function zoom(imgs) {
   // Show the container element (hidden with CSS)
   expandImg.parentElement.style.display = "block";
   }
+
+
+function Zoom2(itz) {
+
+  console.log("zoom");
+
+  var expandImg = document.getElementById("expandedImg");
+
+  var imgd = document.getElementById(itz);
+  
+  console.log(itz);
+  expandImg.src = imgd.childNodes.item(1).src;
+
+  expandImg.parentElement.style.display = "block";
+}
