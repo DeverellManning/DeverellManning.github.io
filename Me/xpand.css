@@ -1,29 +1,3 @@
-<style>
-
-   /* The grid: Four equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 25%;
-  padding: 10px;
-}
-
-/* Style the images inside the grid */
-.column img {
-  opacity: 0.8;
-  cursor: pointer;
-  width:-moz-available
-}
-
-.column img:hover {
-  opacity: 1;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 
 /* The expanding image container (positioning is needed to position the close button and the text) */
 .container {
@@ -43,10 +17,27 @@
 
 /* Closable button inside the image */
 .closebtn {
-  position: absolute;
-  top: 10px;
   right: 15px;
   color: white;
   font-size: 35px;
   cursor: pointer;
-  } </style>
+  }
+
+
+#expandedImg{
+      position:fixed;
+      left:10%;
+      top:1%;
+      height:99%;
+      overflow:scroll;
+      right:0;left:0;
+      margin:auto;
+}
+
+span.closebtn{
+      position:fixed;
+      left:50%;
+      top:5%;
+      color:black;
+      z-index:4;
+}
