@@ -1,0 +1,280 @@
+/*Update ID: ?*/
+/*Christmas 2021*/
+
+/*FONTS*/
+@font-face {
+    font-family: 'Christmas-Card-II';
+    src:url('Christmas-Card-II.ttf.woff') format('woff'),
+        url('Christmas-Card-II.ttf.svg#Christmas-Card-II') format('svg'),
+        url('Christmas-Card-II.ttf.eot'),
+        url('Christmas-Card-II.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+body{
+	background-color: #232d1e;
+	font-size:18;
+	position:relative;
+	left:5px;
+        background: #D0E4F5 url("./Website_Background_Christmas.jpg") no-repeat fixed 50% 50%;
+}
+
+div.Page{
+  position:relative;
+  width:70%;
+  left:9%;top:-10;
+  /*background-color: #335533;background-color: #af3926;background-  color: #4b4f3c; background-color: #232d1e;*/
+  background: #232D1E;
+  padding:80px;
+  padding-top:0px;
+}
+.Page:before {
+    content: "";
+    position: absolute;
+    top:-30;
+    left: -0;
+    height: 110%; /*according to your image*/
+    width:70px;
+    background: #FFE4E433 url("./Blorder.png") repeat-y scroll 4px 0px;
+    z-index:4;
+    -webkit-box-shadow: 0px 8px 26px 12px #FFE4E455; 
+    box-shadow: 0px 0px 26px 0px #FFE4E455;
+}
+.Page:after {
+    content: "";
+    position: absolute; right: 0;
+    height: 110%; /*according to your image*/
+    width:70px;
+    background: #FFE4E433 url("./Blorder.png") repeat-y scroll 4px 0px;
+    top:-30;
+    z-index:4;
+    -webkit-box-shadow: 0px 8px 26px 12px #FFE4E455; 
+    box-shadow: 0px 0px 26px 0px #FFE4E455;
+
+}
+
+/*-- TITLE --*/
+.Title{
+	position:relative;
+	width:105%;
+        height:130;
+	left:-10.5%;top:-10;
+	z-index:5;
+
+	padding-left:75;
+	padding-right:75;
+
+	border-radius:9px;
+	background-color: #af3926;
+	font-family:arial;
+	outline:solid #af3926;
+        font-family: 'Christmas-Card-II';
+        font-weight: 300;
+       
+}
+
+.Title h1 {
+	
+	font-size: 50;
+	text-align: center;
+	color: #F0F0FF;
+	border-bottom: darkgray solid; 
+	line-height:75px;letter-spacing:3;
+}
+
+.Title h3 {
+	line-height:0px;
+	font-size:25px;
+        color: #F0F0FF;letter-spacing:1;
+}
+
+.Title b{
+      background-color:revert;
+      padding:0px;
+}
+
+
+/*--  --*/
+.MainContent, .footer{
+	width: 75%;
+	color:#f0eaeb;
+}
+
+
+/*-- SIDEBAR --*/
+div .Sidebar{	
+	width: 25%;
+        position:relative;
+        top:15;
+	text-align: center;
+}
+
+
+
+
+hr{
+  width: 95%;
+  height: 1px;
+  background-color:darkgrey;
+}
+
+p{
+  font-family:arial;
+  font-weight: 400;
+  font-size: 16px;
+  color:#f0eaeb;
+}
+.MainContent h, .MainContent p, .MainContent br, .MainContent table, .MainContent i, .MainContent b, .MainContent u{
+    background-color:#4b4f3c;
+    padding:5px;
+}
+
+a{
+  color:#b10f25;
+  margin: 11px;
+  background:#50F0502F;
+  font:Arial;
+  -webkit-box-shadow: 0px 0px 19px 2px #50F0505A; 
+  box-shadow: 0px 0px 5px 1px #50F0505A;
+}
+
+a:hover{
+  color: #ef002a;
+  text-decoration: underline;
+  cursor:pointer;
+  -webkit-box-shadow: 0px 0px 19px 2px #50F050FA; 
+  box-shadow: 0px 0px 5px 1px #50F050FA;
+  background:#50F050AF;
+}
+
+a:visited{
+  color:#b10f25;
+  margin: 11px;
+}
+
+
+/*-- HO HO HO --*/
+ho.ho {
+  background: #5e8d22;
+  display:block;
+  position:relative;
+  color:red;
+  border:solid solid;
+}
+ho.ho p{
+  background:#00F5;
+}
+ho.ho h1, ho.ho h2, ho.ho h3, ho.ho h4, ho.ho h5, h6{
+  font-family: 'Christmas-Card-II';
+  background:#FFFF00AA;
+  text-align:center;
+border:black double;
+}
+
+ho.ho h3{
+  font-weight:10;
+  font-size:23;
+}
+
+
+/*-- TABLE --*/
+table{
+  margin: 4px;
+  background: url(./Checkers.jpg);
+  border: 5px solid #e4d6b4;
+  outline: 10px double #AF3926;
+  outline-offset: -7px;
+
+  color:#5e8d22;
+}
+
+tbody{}
+
+th, td{
+  padding:3px;
+  outline:solid #AF3926 1px;
+  border:solid #AF3926 1px;
+  background-color: #d6d3da;
+  cursor:context-menu;
+}
+th{
+  font-type:bold;
+  background:;
+}
+
+td{
+    overflow: hidden;
+}
+
+td:hover, th:hover{
+
+  background-color: #5e8d22;
+  color:#d7c291;
+}
+
+td a {
+    display: block;
+    height: 100%;        
+    width: 100%;
+    margin: -10em;
+    padding: 10em;
+
+    background:revert;
+    color:#5e8d22;
+}
+
+td a:visited{
+  background-color:#5e8d22;
+  color:#5e8d22;
+}
+
+td a:hover{
+  background-color:#5e8d22;
+  color:#d7c291;
+  z-index:3;
+}
+
+
+div.main-nav-header{
+  color:#4b4f3c;
+  font:;
+
+  -webkit-border-radius: 6px 6px 0px 0px;
+  border-radius: 6px 6px 0px 0px;
+
+  border-top:#AF3926 solid;
+  border-left:#AF3926 solid; border-right:#AF3926 solid;
+  background:#d6d3da;
+
+  width:fit-content;
+  left:17px;position:relative;
+  padding:3px;
+}
+
+.Footer img{
+position:relative;
+background:#44444444;
+border:black double 8px;
+}
+
+hi{
+
+  font-style:revert;
+  font-weight:;
+  font-size: 16px;
+  background: #5e8d22;
+  padding-left:2px;padding-right:2px;
+}
+
+
+f{
+  border-top:solid thin black;
+  margin-left:10%;
+  font-size:small;
+  font-style:italic;
+}
+
+
