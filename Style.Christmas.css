@@ -30,6 +30,7 @@ div.Page{
   background: #232D1E;
   padding:80px;
   padding-top:0px;
+  padding-bottom:15px;
 }
 .Page:before {
     content: "";
@@ -118,7 +119,7 @@ div .Sidebar{
 hr{
   width: 95%;
   height: 1px;
-  background-color:darkgrey;
+  background-color:red;
 }
 
 p{
