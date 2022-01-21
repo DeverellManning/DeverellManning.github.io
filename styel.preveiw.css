@@ -208,7 +208,7 @@ Page, div.MainContent{
             text-align: center;
             font:;
             width:70%;
-            left:calc((90% - 70%) / 2);
+            left:calc((100% - 70%) / 2);
             position:relative;
             position:relative;
 	    z-index:2;
