@@ -1,0 +1,236 @@
+/* styel.css */
+/* Hand-Written by Deverell Manning */
+/* DO NOT COPY WITHOUT PERMISION */
+/* Made for my website, deverellmanning.github.io */
+/* Last Updated 1/21/2022 */
+/* PREVIEW VERSION */
+
+/* VARS */
+:root {
+    /* COLORS */
+    --chromaM: #5a8053;
+    --chromaT: #e4f0f2;
+    --chromaA: #fcaf37;
+
+    --chromaM-L: #74a06c;  /* 19% Lighter, 21% Darker*/
+    --chromaM-D: #476542;
+    --chromaM-L2: #8eb288;
+    --chromaM-D2: #385034;
+
+    --chromaT-L: #e7f2f4; /* 12% Lighter, 15% Darker*/
+    --chromaT-D: #b4d6db;
+    --chromaT-L2: #eaf4f5;
+    --chromaT-D2: #8cc0c8;
+
+    --chromaA-L: #fcbb55; /* 15% Lighter, 8% Darker*/
+    --chromaA-D: #fca319;
+    --chromaA-L2: #fcc56e;
+    --chromaA-D2: #f69703;
+}
+
+
+/* FONTS */
+
+
+@font-face {
+  font-family: Font_Awesome;
+  src: url("./fontawesome-webfont.woff");
+}
+
+@font-face {
+  font-family: Lucida;
+  src: url("./Fonts/LTYPE.TTF");
+}
+
+/* MAIN */
+
+body {
+    background: #D0E4F5 url("./Backgrounds/pexels-markus-spiske-138903.jpg") no-repeat fixed 50% 50%;
+    background-size: 100% 100%;
+    overflow-x:hidden;
+    font-family:Font_Awesome;
+}
+
+div.Extra {
+    display:none;
+}
+
+
+/* TEXT STYLES */
+
+hi{
+  display:inline;
+  background: var(--chromaM-L2);
+}
+
+
+code{
+  font: Lucida;
+  color:#3F1001;
+  background: #909393;
+  display:block;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family:Arial;
+}
+
+/* ANCHOR Styles */
+
+a{
+  font:;
+  color:var(--chromaA);
+  background:;
+}
+
+/* TABLE Styles */
+
+table{}
+
+tbody{}
+
+caption{}
+
+
+
+/* SIDEBAR */
+
+div.Sidebar {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: stretch;
+
+    position: fixed;
+    width: 20%;
+    top: 35px;
+    right: -19%;
+
+    /*overflow:;*/
+    border:5px solid black;
+
+    text-align: center;
+    z-index:4;
+    transition:1s ease-out;
+}
+
+    div.Sidebar:hover {
+        right:2%;
+        transition:1.5s ease-in-out;
+    }
+
+    div.Sidebar .Puller{
+        display: flex;
+        position:absolute;
+        width:15%;
+        height:100%;
+        left:-19%;top:-5px;
+
+        color:white;
+        background:black;
+        border: black solid 5px;
+
+        transition:2s;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+
+    div.Sidebar:hover .Puller{
+        width:4%;
+        left:-9%;
+    }
+
+
+/* TopBar */
+
+div.Topbar {
+    position: fixed;
+    width: 100%;
+    height: min-content;
+
+    z-index: 5;
+    top: 0px;left:0px;
+    padding: 4px;
+    padding-top: 5px;
+
+    border-bottom: black thin solid;
+    background:#EEF
+}
+
+    div.Topbar .left, div.Topbar .cent, div.Topbar .right {
+        display: inline;
+        width:33%;
+        position: relative;
+    }
+    div.Topbar .left {
+        text-align: left;
+        left:0%;
+    }
+
+    div.Topbar .cent {
+        text-align: center;
+        left:33%;
+        
+    }
+
+    div.Topbar .right {
+        text-align:right;
+        float: right;
+    }
+
+/* PAGE */
+
+Page, div.MainContent{
+    width: 75%;
+    position: relative;
+    left: 12.5%;
+    background: #444;
+    --Section-Padding:50px;
+}
+
+    Page Section, div.MainContent{
+        background: var(--chromaM);
+        color: var(--chromaT);
+        margin-bottom: 30px;
+        width: 70%;
+        position: relative;
+        padding: 10px;
+        padding-left:var(--Section-Padding); padding-right:var(--Section-Padding);
+
+        border-radius:5px;
+    }
+
+/* Title */
+
+        div.Title {
+            text-align: center;
+            font:;
+            width:70%;
+            left:calc((90% - 70%) / 2);
+            position:relative;
+            position:relative;
+	    z-index:2;
+
+            padding-left:75;
+            padding-right:75;
+            margin-top:2%;
+            background:var(--chromaT);
+            color:var(--chromaA);
+            border-radius:18px;
+            border:solid var(--chromaA) 4px;
+        }
+
+            Page Section div.Title h1{
+                font-size:30px;
+            }
+
+            Page Section div.Title h3{
+                font-size:20px;
+            }
+
+            div.Footer, Page div.Footer, Page span.Footer {
+            }
+
+
