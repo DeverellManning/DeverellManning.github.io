@@ -1,0 +1,497 @@
+/* styel.css */
+/* Hand-Written by Deverell Manning */
+/* DO NOT COPY WITHOUT PERMISION */
+/* Made for my website, deverellmanning.github.io */
+/* Last Updated 1/24/2022 */
+
+/* VARS */
+:root {
+    /* COLORS */
+    --chromaM: #5a8053;
+    --chromaT: #e4f0f2;
+    --chromaA: #fcaf37;
+
+    --chromaM-L: #74a06c;  /* 19% Lighter, 21% Darker*/
+    --chromaM-D: #476542;
+    --chromaM-L2: #8eb288;
+    --chromaM-D2: #385034;
+
+    --chromaT-L: #e7f2f4; /* 12% Lighter, 15% Darker*/
+    --chromaT-D: #b4d6db;
+    --chromaT-L2: #eaf4f5;
+    --chromaT-D2: #8cc0c8;
+
+    --chromaA-L: #fcbb55; /* 15% Lighter, 8% Darker*/
+    --chromaA-D: #fca319;
+    --chromaA-L2: #fcc56e;
+    --chromaA-D2: #f69703;
+}
+
+
+/* FONTS */
+
+@font-face {
+  font-family: The Sirens;
+  src: url("./Assets/Fonts/Sirens Regular.otf");
+}
+
+@font-face {
+  font-family: Aftetir;
+  src: url("./Assets/Fonts/Aftetir.otf"), url("./Fonts/Aftetir.ttf");
+}
+@font-face {
+  font-family: Aftetir;
+  src: url("./Assets/Fonts/AftetirBold.otf"), url("./Fonts/Aftetir.ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: Lucida;
+  src: url("./Assets/Fonts/LTYPE.TTF");
+}
+
+/* MAIN */
+
+body {
+    background: #D0E4F5 url("./Backgrounds/pexels-markus-spiske-138903.jpg") no-repeat fixed 50% 50%;
+    background-size: 100% 100%;
+    overflow-x:hidden;
+    font-family: 'Aftetir';
+}
+
+div.Extra {
+    display:none;
+}
+
+/* QUICK ICONS */
+.fa-pause-circle{
+  color:grey;
+}
+
+.fa-plus-circle{
+  color:yellow;
+}
+
+.fa-circle-check{
+  color:purple;
+}
+
+.fa-screwdriver-wrench{
+color:green;
+}
+
+
+/* TEXT STYLES */
+
+hi{
+  display: inline-block;
+  padding:2px;
+  padding-left:4px; padding-right:4px;
+  background:var(--chromaM-L2);
+  color: var(--chromaT-L);
+}
+
+b{
+  font-family:Aftetir;
+  font-weight:bold;
+}
+
+u{
+  text-decoration: underline blink var(--chromaT-D);*/
+}
+
+i{}
+
+code{
+  font: Lucida;
+  background: #596364;
+  display:block;
+  padding:7px;
+  border:3px double var(--chromaT-D);
+  color: var(--chromaT-L);
+}
+
+kbd{}
+
+var{}
+
+details{}
+
+summary{}
+
+time{
+  font: Lucida;
+  color: var(--chromaT-A-L);
+  background: #99a9ab;
+}
+
+abbr{
+
+}
+
+address{
+
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family:The Sirens;
+  letter-spacing:2px;
+}
+
+em{}
+
+strong{}
+
+cite{}
+
+hr{
+  height:2px;
+  width:95%;
+
+  border:none;
+  border-bottom:solid 1px var(--chromaM-D2);
+  border-top:solid 1px var(--chromaM-D2);
+  background: var(--chromaA-D);
+  background: repeating-linear-gradient(to right, var(--chromaA) 5%,  var(--chromaA-D2) 10%,  var(--chromaA) 15%);
+}
+
+
+/* ANCHOR Styles */
+
+a{
+  font:;
+  color:var(--chromaA-L2);
+  background:;
+}
+
+a:visited{
+  color:;
+  background:;
+}
+
+a:active{
+  color:var(--chromaA-D2);
+  background:;
+}
+
+a:hover{
+  color:var(--chromaA);
+  text-shadow: 0px 0px 3px var(--chromaA-L2);
+}
+
+
+/* LIST style */
+
+ol, ul{}
+
+li{}
+
+
+/* TABLE Styles */
+
+table {
+	border:1px solid #b3adad;
+	border-collapse:collapse;
+	padding:5px;
+        background:url(./images/checkers.jpg)
+	border-bottom: var(--chromaM-D2) 2px solid;
+}
+tbody{}
+	table th {
+	border:1px solid #b3adad;
+	padding:5px;
+	background: var(--chromaA-L2);
+	color: var(--chromaM-D2);
+}
+table td {
+	border:1px solid #b3adad;
+	text-align:center;
+	padding:5px;
+	background: var(--chromaT-L);;
+	color: var(--chromaM-D2);
+        transition:.75s;
+}
+
+table.Nav-Table{
+        background:url(./images/checkers.jpg);
+        border:double 2px var(--chromaM-D2);
+}
+
+table.Nav-Table td:hover{
+        background:var(--chromaA-L2);
+        border:double 1px var(--chromaM-D2);
+}
+
+table.Nav-Table tr:hover th:first-of-type{
+        background:var(--chromaA-L2);
+        border:double 1px var(--chromaM-D2);
+}
+
+table.Nav-Table td, table.Nav-Table th{
+        border:solid 1px var(--chromaM-L2);
+}
+
+.Nav-Table a{
+	color:var(--chromaA-D2);
+}
+
+table.LightTable {
+	border:3px inset var(--chromaM-D2);
+	border-collapse:collapse;
+	padding:5px;
+        background:url(./images/checkers.jpg)
+	border-bottom: var(--chromaM-D2) 2px solid;
+}
+table.LightTable tbody{}
+
+	table.LightTable th{
+	border:1px solid #b3adad;
+	padding:5px;
+	background: var(--chromaA-L2);
+	color: var(--chromaM-D2);
+}
+table.LightTable td{
+	border:1px solid #b3adad;
+	text-align:center;
+	padding:5px;
+	background: inherit;
+	color: var(--chromaM);
+}
+table.LightTable tr{
+  background:var(--chromaT-L2);
+}
+table.LightTable tr:nth-child(even) {background-color: var(--chromaA-L2);}
+
+.FullWidth{
+  width:100%;
+}
+
+/* SIDEBAR */
+
+div.Sidebar {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: stretch;
+
+    position: fixed;
+    width: 20%;
+    top: 50px;
+    left: -21%;
+
+    /*overflow:;*/
+    border:5px solid var(--chromaT);
+
+    text-align: center;
+    z-index:4;
+    transition:1s ease-out;
+    background-image:url("./Images/Sidebar-Background.jpg");
+    background-size: 100%;
+}
+
+    div.Sidebar:hover {
+        left:1%;
+        transition:1.5s ease-in-out;
+    }
+    
+    div.Sidebar iframe{
+      border:none;
+      width:100%;
+      height: fit-content;
+      overflow-y: scroll;
+      scroll: show;
+    }
+
+    div.Sidebar .Puller{
+        display: flex;
+        position:absolute;
+        width:15%;
+        height:100%;
+        right:-19%;top:-5px;
+
+        color:var(--chromaT);
+        background:var(--chromaT-D2);
+        border: var(--chromaT) solid 5px;
+
+        transition:2s;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+
+    div.Sidebar:hover .Puller{
+        width:4%;
+        right:-9%;
+    }
+
+
+/* TopBar */
+
+div.Topbar {
+    position: fixed;
+    width: 100%;
+    height: min-content;
+
+    z-index: 5;
+    top: 0px;left:0px;
+    padding: 4px;
+    padding-top: 5px;
+
+    border-bottom: var(--chromaM-D2) thin solid;
+    background:var(--chromaT);
+}
+
+    div.Topbar .left, div.Topbar .cent, div.Topbar .right {
+        display: inline;
+        width:33%;
+        position: relative;
+    }
+    div.Topbar .left {
+        text-align: left;
+        left:0%;
+    }
+
+    div.Topbar .cent {
+        text-align: center;
+        left:33%;
+        
+    }
+
+    div.Topbar .right {
+        text-align:right;
+        float: right;
+    }
+
+/* PAGE */
+
+Page {
+    width: 75%;
+    position: relative;
+    left: 12.5%;
+    background: var(--chromaM-D);
+    --Section-Padding:50px;
+}
+
+    Page Section {
+        background: var(--chromaM);
+        color: var(--chromaT);
+        margin-bottom: 30px;
+        width: 70%;
+        position: relative;
+        padding: 10px;
+        padding-left:var(--Section-Padding); padding-right:var(--Section-Padding);
+
+        line-height:1.2em;
+        font-size:16px;
+        border-radius:5px;
+        height;
+    }
+
+/* SECTION LAYOUTS */
+Page Section.Col2PicLeft {
+  display: grid;
+  column-gap:20px;
+  grid-template-columns: 33% 66%;
+}
+
+Page Section.Col2PicLeft img{
+  width:220px;
+  margin-left:20px;
+  margin-right:20px;
+}
+
+Page Section.Col2PicLeft p{}
+
+Page Section.Col2PicRight {
+  display: grid;
+  column-gap:20px;
+  grid-template-columns: 66% 33%;
+}
+
+Page Section.Col2PicRight img{
+  width:220px;
+  margin-left:20px;
+  margin-right:20px;
+}
+
+Page Section.Col2PicRight p{}
+
+Page Section.Col3PicCent {
+  display: grid;
+  column-gap:15px;
+  grid-template-columns: 33.4% 33.3% 33.4%;
+}
+
+Page Section.Col2PicCent img{
+  width:210px;
+  margin-left:15px;
+  margin-right:15px;
+}
+
+Page Section.Col2PicCent p{}
+
+/* Title */
+
+        Page Section div.Title {
+            text-align: center;
+            width:calc(100% + var(--Section-Padding)*2 + 2%*2);
+            left:calc(-1 * var(--Section-Padding) - 2%);
+            top:-40px;
+            position:relative;
+	    z-index:2;
+
+            padding-left:75;
+            padding-right:75;
+            margin-top:2%;
+            background:var(--chromaT);
+            color:var(--chromaA);
+            border-radius:18px;
+            border:solid var(--chromaA-D) 4px;
+        }
+
+        Page Section:first-child{
+          top: 40px;
+        }
+
+            Page Section div.Title h1{
+                font-size:45px;
+                letter-spacing:2px;
+                margin:20px;
+            }
+
+            Page Section div.Title h3{
+                font-size:24px;
+                letter-spacing:1px;
+                margin:16px;
+            }
+
+            Page Section.Footer, Page div.Footer, Page span.Footer {
+		  display: grid;
+		  column-gap:10px;
+		  grid-template-columns: 20% 80%;
+            }
+
+	    Footer.Col2PicLeft img{
+	      width:400px;
+	      margin-left:20px;
+	      margin-right:20px;
+	    }
+
+            Page Section.Footer quote, Page div.Footer quote, Page span.Footer quote{
+              width:60%;
+              left:20%;
+              display:inline-block;
+              position:relative;
+              text-align:center;
+
+              background:var(--chromaT-L);
+              color:var(--chromaM-D2);
+              font-style:italic;
+              border-radius:5px;
+              border:dashed var(--chromaA) 2px;
+              margin:4px;
+            }
+
+
+
+
