@@ -32,16 +32,16 @@
 
 @font-face {
   font-family: The Sirens;
-  src: url("./Assets/Fonts/Sirens Regular.otf");
+  src: url("./../Fonts/Sirens Regular.otf");
 }
 
 @font-face {
   font-family: Aftetir;
-  src: url("./Assets/Fonts/Aftetir.otf"), url("./Fonts/Aftetir.ttf");
+  src: url("./../Fonts/Aftetir.otf"), url("./Fonts/Aftetir.ttf");
 }
 @font-face {
   font-family: Aftetir;
-  src: url("./Assets/Fonts/AftetirBold.otf"), url("./Fonts/Aftetir.ttf");
+  src: url("./../Fonts/AftetirBold.otf"), url("./Fonts/Aftetir.ttf");
   font-weight: bold;
 }
 @font-face {
@@ -52,7 +52,7 @@
 /* MAIN */
 
 body {
-    background: #D0E4F5 url("./Backgrounds/pexels-markus-spiske-138903.jpg") no-repeat fixed 50% 50%;
+    background: #D0E4F5 url("./../Backgrounds/pexels-markus-spiske-138903.jpg") no-repeat fixed 50% 50%;
     background-size: 100% 100%;
     overflow-x:hidden;
     font-family: 'Aftetir';
@@ -285,7 +285,7 @@ div.Sidebar {
     text-align: center;
     z-index:4;
     transition:1s ease-out;
-    background-image:url("./Images/Sidebar-Background.jpg");
+    background-image:url("./../Images/Sidebar-Background.jpg");
     background-size: 100%;
 }
 
