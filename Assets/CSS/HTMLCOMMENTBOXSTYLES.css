@@ -1,0 +1,42 @@
+div .comment{
+  font-family:arial;
+  background:whitesmoke;
+  position: relative;
+  left:3%;
+  outline:solid; 
+  width:max-content;
+}
+div .commentbox{
+  width:10;
+}
+
+#HCB_comment_box .hcb-comment-body{
+  font-size: 16
+}
+#HCB_comment_box b{
+  font-size:20
+}
+
+#HCB_comment_box h3{
+  position: relative;
+  left:2%;
+  line-height: 0;
+  padding-top: 20;
+  text-decoration: underline;
+}
+
+#HCB_comment_form_box{
+  position: relative;
+  left:4%;
+  width:90%;
+}
+#HCB_comment_box a{
+  color:blue;
+}
+.home-desc a{
+  color:red;
+}
+
+div#HCB_comment_form_box form#hcb_form div.home-desc a{
+  color:blue;
+}
