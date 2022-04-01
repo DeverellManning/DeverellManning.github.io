@@ -1,0 +1,18 @@
+.wrapper { 
+    position:relative; width:225px; height:237px;  
+    opacity:40%;
+}
+.wrapper:hover{
+    opacity:100%;
+}
+img {
+    position:absolute;
+    opacity:inherit;
+}
+
+td{
+    background-image: url("./download.jpg");
+}
+td:hover{
+    background:lightgreen;
+}

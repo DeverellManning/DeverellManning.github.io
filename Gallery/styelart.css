@@ -1,0 +1,50 @@
+div.sidebar{background:gray; position:fixed; float:right; bottom:30%;right:-305;border-left:black 25px solid;transition:1s; z-index:2;}
+
+div.sidebar:hover{
+right:0;
+transition:2s;
+border-left:3px solid black;
+background:lightslategray;
+}
+
+
+body{
+background: #52aeff;
+font-family:cursive;font-size:13;
+overflow-x:clip;
+}
+
+div.Title{
+background:#5757ff;
+box-shadow: 0px 0px 5px 4px #5757ff;
+-webkit-box-shadow:blue 0 0 10 10;
+font-family:system-ui;
+font-size:20;
+}
+div.MainContent{
+width:100%;
+}
+
+div.Footer{
+position:fixed;
+left:2px;
+bottom:-2;
+background:slategray;
+height:10%;
+width:97%;
+border: 4px ridge #000000;
+z-index:1;
+padding:7px;
+}
+
+td{
+      outline:black solid;
+      cursor: pointer;
+      position:relative;
+}
+td:hover{
+      -webkit-box-shadow: 0px 0px 23px 3px #EDFF3E; 
+box-shadow: 0px 0px 23px 3px #EDFF3E;
+z-index:1;
+
+}
