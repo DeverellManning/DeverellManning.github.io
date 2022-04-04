@@ -13,6 +13,7 @@ alert(url);
   var t3=t1.concat(url);
   var t4=t3.concat(t2);
   alert(t4);
+  document.body.style.background = "#f3f3f3 url('img_tree.png') no-repeat right top";
   document.body.style.background = t4;
   
   
@@ -23,9 +24,4 @@ element.appendChild(document.createTextNode(names));
   
 
 document.getElementById("output").appendChild(document.createTextNode(url));
-
-
-
-
-document.body.style.background = "#D0E4F5 url('deverellmanning.github.io/Assets/Backgrounds/" + url + "') no-repeat fixed 50% 50%;";
 }
