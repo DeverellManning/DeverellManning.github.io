@@ -6,7 +6,7 @@ var rnd=Math.floor(Math.random()*nm1.length);
 
 var url=nm1[rnd];
   
-
+alert(url);
 var element=document.createElement("div");
 
 
