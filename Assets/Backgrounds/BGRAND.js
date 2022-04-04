@@ -8,13 +8,15 @@ var url=nm1[rnd];
   
 alert(url);
   
-  var t1="#D0E4F5 url('deverellmanning.github.io/Assets/Backgrounds/";
-  var t2="') no-repeat fixed 50% 50%;";
+  var t1="url('deverellmanning.github.io/Assets/Backgrounds/";
+  var t2="')";
   var t3=t1.concat(url);
   var t4=t3.concat(t2);
   alert(t4);
-  document.body.style.background = "#f3f3f3 url('img_tree.png') no-repeat right top";
-  document.body.style.background = t4;
+
+  document.body.style.backgroundImage = t4; 
+  
+    alert(document.body.style.backgroundImage);
   
   
 var element=document.createElement("div");
