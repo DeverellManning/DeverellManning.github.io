@@ -1,4 +1,4 @@
-function randBG(){
+function randBG() {
 
 var nm1=["pexels-aj-povey-216076.jpg", "pexels-markus-spiske-113338.jpg", "pexels-markus-spiske-138903.jpg", "pexels-pixabay-158223.jpg"];
 
@@ -13,7 +13,7 @@ var element=document.createElement("div");
 element.appendChild(document.createTextNode(names));
   
 
-document.getElementById("output").appendChild(element);
+document.getElementById("output").appendChild(document.createTextNode(url));
 
 
 
