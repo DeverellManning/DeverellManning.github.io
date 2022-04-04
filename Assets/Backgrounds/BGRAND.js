@@ -6,18 +6,17 @@ var rnd=Math.floor(Math.random()*nm1.length);
 
 var url=nm1[rnd];
   
-var br="";
 
-var element=document.createElement("div");element.setAttribute("id","result");
+var element=document.createElement("div");
 
-br=document.createElement('br');
 
-element.appendChild(document.createTextNode(names));element.appendChild(br);}
+element.appendChild(document.createTextNode(names));
+  
 
-document.getElementById("output").appendChild(element);}
-
+document.getElementById("output").appendChild(element);
 
 
 
-document.body.style.background = '#D0E4F5 url("deverellmanning.github.io/Assets/Backgrounds/' + url + '") no-repeat fixed 50% 50%;';
+
+document.body.style.background = "#D0E4F5 url('deverellmanning.github.io/Assets/Backgrounds/" + url + "') no-repeat fixed 50% 50%;";
 }
