@@ -3,6 +3,7 @@ div.Gallery{
   display:inline-block;
   position:relative;
   border:double var(--chromaM-D2) 5px;
+  text-align: center;
 }
 
 img.tp{
@@ -14,15 +15,16 @@ img.tp{
 figure {
   border: black thin solid;
   display: inline-block;
-  width: 200px;
+  width: 22%;
   height: 200px;
   opacity: 55%;
   margin:5px;
   transition:1.5s;
+  text-align:center;
 }
 
 figure img {
-  height: 200px;
+  width: 22%;
   position: absolute;
   opacity: inherit;
 }
