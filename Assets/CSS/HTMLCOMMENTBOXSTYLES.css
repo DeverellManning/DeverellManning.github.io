@@ -1,43 +1,164 @@
-div .comment{
-  font-family:arial;
-  background:whitesmoke;
-  position: relative;
-  left:3%;
-  outline:solid; 
-  width:max-content;
-}
-div .commentbox{
-  width:10;
-  color:black;
+:root {
+    --cb-M: #c4d5a7;
+    --cb-ML: #cde2b8;
+    --cb-B: #636f59;
+    --cb-BL: #828f77;
+    --cb-A: #8a9ba6;
+    --cb-AL: #9cb1b5;
 }
 
-#HCB_comment_box .hcb-comment-body{
-  font-size: 16
+#HCB_comment_box p.error {
+    border: 4px solid #f88;
+    background-color: #fee;
+    color: #800;
 }
-#HCB_comment_box b{
-  font-size:20
+.hcb-link {
+    color: blue;
+    text-decoration: underline;
+}
+div .comment {
+    font-family: arial;
+    background: var(--cb-BL);
+    position: relative;
+    border: double var(--cb-M) 3px;
+    width: fit-content;
+    color: var(--cb-M);
+    padding: 5px;
+    margin-bottom: .5em;
+
+}
+#HCB_comment_box .hcb-comment-body {
+    font-size: 16;
+    margin: 5px;
+    position: relative;
+}
+#HCB_comment_box .author-name {
+    font-size: 20;
+    color: var(--cb-AL);
+    text-decoration: underline;
+}
+#HCB_comment_box .date {
+    font-size: 20;
+    color: var(--cb-AL);
+    font-size: 13px;
+}
+.comment blockquote {
+    border-left: solid 3px var(--cb-ML);
+    padding: 2px;
+    margin: 10px 0;
+    overflow: hidden;
+}
+#HCB_comment_box h3 {
+    position: relative;
+    line-height: .5;
+    text-decoration: underline;
+    font-size: 30px;
+    color: var(--cb-AL);
+    margin-bottom: 8px;
+}
+#HCB_comment_box {
+    background: var(--cb-B);
+    border:double var(--cb-A) 5px;
+    width: 80%;
+    left: 10%;
+    position: relative;
+    border-radius:4px;
+    padding-left:4%
 }
 
-#HCB_comment_box h3{
-  position: relative;
-  left:2%;
-  line-height: 0;
-  padding-top: 20;
-  text-decoration: underline;
+.home-desc a {
+    color: red;
+}
+div#HCB_comment_form_box form#hcb_form div.home-desc a {
+    color: var(--cb-M);
+}
+#HCB_comment_box #HCB_comment_form_box {
+    padding-bottom: 1em;
+    width: 70%;
 }
 
-#HCB_comment_form_box{
-  position: relative;
-  left:4%;
-  width:90%;
-}
-#HCB_comment_box a{
-  color:blue;
-}
-.home-desc a{
-  color:red;
+#HCB_comment_box .hcb-err {
+    color: red;
 }
 
-div#HCB_comment_form_box form#hcb_form div.home-desc a{
-  color:blue;
+#HCB_comment_box .comment .likes {
+    position: absolute;
+    top: 0;
+    right: 0;
 }
+
+#HCB_comment_box #comments_list {
+    flex: 1;
+    overflow: auto;
+    padding-right: 8px;
+    border-top: var(--cb-BL) solid 3px;
+    padding-top: 1em;
+}
+
+#HCB_comment_box .hcb-comment-tb button {
+    font-size: 14px;
+    color: var(--cb-A);
+    font-weight: 600;
+    border: none;
+    padding: 0;
+    margin-right: 4px;
+    background: 0 0;
+    cursor: pointer;
+}
+#HCB_comment_box .hcb-comment-body {
+    font-size: 14px;
+    margin: 8px 0 0;
+    padding: 0;
+}
+
+#HCB_comment_box .approval-msg {
+    opacity: .9;
+    color: red;
+    font-style: italic;
+}
+#HCB_comment_box #hcb_form textarea, #HCB_comment_box #hcb_form #hcb_form_name_container {
+    margin-bottom: 9px;
+}
+#HCB_comment_box #hcb_form textarea, #HCB_comment_box #hcb_form #hcb_form_name {
+    font-size: 14px;
+    padding: 8px;
+}
+
+#hcb_form_content {
+    width:100%;
+}
+#HCB_comment_box #hcb_form .hcb-door-out {width: 28px;}
+#HCB_comment_box #hcb_form .hcb-door-in {width: 28px;}
+#HCB_comment_box #hcb_form .home-desc {margin-top: 12px;}
+#HCB_comment_box #hcb_form #hcb_subscribe {
+    margin-top: 12px;
+    display: inline-block;
+}
+#HCB_comment_box #hcb_form #hcb_settings {
+    text-decoration: none;
+    color: #333;
+}
+#HCB_comment_box #hcb_form #replying_to_container {
+    font-size: 14px;
+    color: gray;
+}
+#HCB_comment_box #hcb_form .btn, #HCB_comment_box #HCB_comment_form_box .btn {
+    letter-spacing: .3;
+    font-family: Consolas;
+    border: 1px solid #353535;
+    background-color: var(--cb-AL);
+    color: var(--cb-B);
+    font-size: 14px;
+    padding: 10px 16px;
+    margin-right: 6px;
+    font-weight: 500;
+    cursor:pointer;
+    height:40px;
+    display: inline;
+}
+#HCB_comment_box #hcb_form .btn:hover, #HCB_comment_box #HCB_comment_form_box .btn:hover{
+    transition:1s;
+    background:var(--cb-ML);
+}
+#HCB_comment_box .gravatar {padding-right: 2px;}
+#HCB_comment_box input[type=file] {display: none;}
