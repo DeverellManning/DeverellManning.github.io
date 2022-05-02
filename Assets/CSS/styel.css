@@ -276,6 +276,7 @@ div.Sidebar {
 
     position: fixed;
     width: 20%;
+    height:350px;
     top: 50px;
     left: -21%;
 
@@ -297,9 +298,11 @@ div.Sidebar {
     div.Sidebar iframe{
       border:none;
       width:100%;
-      height: fit-content;
+      height: 100%;
       overflow-y: scroll;
-      scroll: show;
+      /*! scroll: show; */
+      position: relative;
+      display: flex;
     }
 
     div.Sidebar .Puller{
