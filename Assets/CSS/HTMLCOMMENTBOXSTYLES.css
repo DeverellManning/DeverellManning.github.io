@@ -1,10 +1,10 @@
 :root {
-    --cb-M: #c4d5a7;
-    --cb-ML: #cde2b8;
-    --cb-B: #636f59;
-    --cb-BL: #828f77;
-    --cb-A: #8a9ba6;
-    --cb-AL: #9cb1b5;
+    --cb-M: #c1d29c;
+    --cb-ML: #cce8b0;
+    --cb-B: #51684f;
+    --cb-BL: #699166;
+    --cb-A: #82a3b9;
+    --cb-AL: #a4ced7;
 }
 
 #HCB_comment_box p.error {
