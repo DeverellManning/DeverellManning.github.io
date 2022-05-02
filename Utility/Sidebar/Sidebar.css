@@ -1,21 +1,27 @@
 body{
-background:lightgrey;
-border:black double;
-  overflow: hidden;
-  
+  background:#cce2f7;
+  border:double 4px;
+  overflow-y: scroll;
+  color:#ac6c28;
 }
-
 a{
   color:#381;
   text-decoration: none;
+  transition:0.75s;
 }
 a:hover{
   text-decoration: underline black;
+  background: #e7f2fd;
 }
-
-li::marker{
-  
+ul{
+  list-style-type: disclosure-closed; 
 }
 h3{
   text-align: center;
+  font-size:20px;
+  margin:0px;
+  border-bottom:solid 1px;
+  width:90%;
+  left:5%;
+  position:relative;
 }
