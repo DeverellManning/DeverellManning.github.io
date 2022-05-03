@@ -270,7 +270,7 @@ table.LightTable tr:nth-child(even) {background-color: var(--chromaA-L2);}
 div.Sidebar {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    flex-wrap:nowrap;
     align-content: center;
     align-items: stretch;
 
@@ -297,13 +297,10 @@ div.Sidebar {
     
     div.Sidebar iframe{
       border:none;
-      width:100%;
       height: 100%;
       overflow-y: scroll;
-      /*! scroll: show; */
-      position: relative;
-      display: flex;
     }
+
 
     div.Sidebar .Puller{
         display: flex;
