@@ -8,7 +8,7 @@ var url=nm1[rnd];
   
 //alert(url);
   
-  var t1="url('https://deverellmanning.github.io/Assets/Backgrounds/";
+  var t1="url('./Assets/Backgrounds/";
   var t2="')";
   var t3=t1.concat(url);
   var t4=t3.concat(t2);
