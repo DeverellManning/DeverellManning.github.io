@@ -1,0 +1,54 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+main {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.body {
+  text-align: center;
+}
+.page{
+  text-align: center;
+  width: 50%;
+  position: relative;
+  left: 25%;
+  
+  border: 15px #bcbcf7 ridge;
+  
+}
+.page canvas{
+  position: relative;
+  border: 1px solid grey;
+}
+.tool-box{
+  margin-top: 15px;
+  border:2px black solid;
+}
+
+.tool-box div{
+  border:0px black solid;
+  
+  padding: 7px;
+}
+
+.tool-box select{
+    border-radius: 0;
+    background: white;
+    border: 2px solid;
+}
+
+.tool-box hr{
+    margin: 0;
+}
+
+.action-group{
+  background: #e4ffd4;
+  padding: 6px;
+}
+
+.tool-option-group{
+
+}

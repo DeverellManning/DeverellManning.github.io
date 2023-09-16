@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="../p5.js"></script>
+    <!--<script src="p5.sound.min.js"></script>-->
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <meta charset="utf-8" />
+
+  </head>
+  <body>
+    <div class="page">
+        <main>
+	</main>
+	
+	<div class="tool-box">
+	  <div class="action-group">
+	      Action: 
+	      <select name="state" id="Action">
+		<option value="0">add</option>
+		<option value="1">scatter</option>
+		<option value="2">remove</option>
+		<option value="3">melt</option>
+		<option value="4">-</option>
+	      </select>
+	  </div>
+	  <hr>
+	  <div class="tool-option-group">
+	    State:
+	    <select name="state" id="inState">
+	      <option value="0">Sand</option>
+	      <option value="1">Frozen</option>
+	      <option value="2">Water</option>
+	      <option value="3">Audi</option>
+	      <option value="4">Mercedes</option>
+	    </select>
+	    
+	    Color: <input type="color" id="inColor">
+	    Brush Size: <input type="range" id="inBrushSize" min="1" max="10">
+	  </div>
+	  
+	</div>
+      </div>
+
+	
+	
+    
+    
+    <script src="../util.js"></script>
+    
+    <script src="../particle.js"></script>
+    <script src="sand.js"></script>
+    
+    <script src="./worldgen/basic.js"></script>
+    <script src="./worldgen/town.js"></script>
+    
+    <script src="tools/base-tool.js"></script>
+    <script src="tools/create-tool.js"></script>
+    <script src="tools/tool-manager.js"></script>
+    
+    <script src="./sketch.js"></script>
+  </body>
+</html>

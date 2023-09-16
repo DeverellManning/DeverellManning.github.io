@@ -1,0 +1,3 @@
+class CreateTool extends BaseTool {
+	
+}
