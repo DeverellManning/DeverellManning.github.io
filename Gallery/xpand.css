@@ -4,11 +4,12 @@
   position: relative;
   display: none;
   transition:2.5s;
+  z-index: 2;
 }
 
 /* Expanding image text */
 #imgtext {
-  position: absolute;
+  position: fixed;
   bottom: 15px;
   left: 15px;
   color: white;
@@ -18,10 +19,8 @@
 /* Closable button inside the image */
 .closebtn {
   right: 15px;
-  color: white;
   font-size: 35px;
-  cursor: pointer;
-  }
+}
 
 
 #expandedImg{
@@ -34,12 +33,26 @@
       margin:auto;
   opacity:inherit;
   transition:2.5s;
+  z-index: 8;
 }
 
 span.closebtn{
-      position:fixed;
-      left:50%;
-      top:5%;
-      color:black;
-      z-index:4;
+	position:fixed;
+	left:50%;
+	top:5%;
+	color:black;
+	z-index:10;
+	cursor: pointer;
+	text-shadow: 0 0 10px white;
+}
+
+div.darkbg {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #2c212199;
+    z-index: 5;
+    display: block;
 }

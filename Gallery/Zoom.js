@@ -15,22 +15,27 @@ function zoom(imgs) {
 
 function Zoom2(itz) {
 
-  console.log("zoom");
+  eDisc = document.getElementById("imgtext");
+  eImage = document.getElementById("expandedImg");
 
-  var expandImg = document.getElementById("expandedImg");
+  console.log("Veiwing Image " + itz + ".");
 
   var imgd = document.getElementById(itz);
   
   console.log(itz);
-  //let name = "404.jpg";
-  let name = imgd.childNodes.item(1).src.replace("/Small/", "/");
 
-  expandImg.src = name;
+  let name = "404.jpg";
+  name = imgd.childNodes.item(1).src.replace("/Small/", "/");
 
+  let disc = imgd.getElementsByTagName("div").item(0)
+  if (disc != null) { disc = imgd.getElementsByTagName("div").item(0).innerHTML };
 
+  
+  eImage.src = name;
+  eDisc.innerHTML = disc;
 
-  expandImg.parentElement.style.display = "block";
-  expandImg.parentElement.style.opacity="100%";
+  eImage.parentElement.style.display = "block";
+  eImage.parentElement.style.opacity="100%";
 }
 
 function Close(obj) {
