@@ -42,3 +42,26 @@ function Close(obj) {
   obj.parentElement.style.display='none';
   obj.parentElement.style.opacity="0%";
 }
+
+
+function Zoom3(fig) {
+
+  eDisc = document.getElementById("imgtext");
+  eImage = document.getElementById("expandedImg");
+
+  //console.log(fig);
+
+  let name = "404.jpg";
+  name = fig.childNodes.item(1).src.replace("/Small/", "/");
+  console.log("Veiwing Image " + name + ".");
+
+  let disc = fig.getElementsByTagName("disc").item(0)
+  if (disc != null) { disc = fig.getElementsByTagName("disc").item(0).innerHTML };
+
+  
+  eImage.src = name;
+  eDisc.innerHTML = disc;
+
+  eImage.parentElement.style.display = "block";
+  eImage.parentElement.style.opacity="100%";
+}

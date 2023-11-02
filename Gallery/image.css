@@ -29,6 +29,7 @@ figure {
   flex-wrap: wrap;
   justify-content: space-evenly;
   overflow: clip;
+  cursor:grab;
 }
 
 figure img {
@@ -58,9 +59,24 @@ figure figcaption{
     background:var(--chromaT-L2);
 }
 
-figure div{
+figure name,figure date{
+  display: inline-table;
+  height: 20px;
+  width: 100%;
+  position: relative;
+  list-style: none;
+  margin-top:1px;
+  
+  outline:black solid thin;
+    color:var(--chromaA-D2);
+  opacity:100%;
+    background:var(--chromaT-L2);
+}
+
+figure disc{
     display:none;
 }
-figure figcaption.title{
+
+figure name{
     font-weight: bold;
 }

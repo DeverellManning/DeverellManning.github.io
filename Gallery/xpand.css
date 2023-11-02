@@ -14,29 +14,25 @@
   left: 15px;
   color: white;
   font-size: 20px;
+  z-index:8;
 }
-
-/* Closable button inside the image */
-.closebtn {
-  right: 15px;
-  font-size: 35px;
-}
-
 
 #expandedImg{
-      position:fixed;
-      left:10%;
-      top:1%;
-      height:99%;
-      overflow:scroll;
-      right:0;left:0;
-      margin:auto;
+  position:fixed;
+  left:10%;
+  top:0%;
+  height:98%;
+  overflow:scroll;
+  right:0;left:0;
+  margin:auto;
   opacity:inherit;
   transition:2.5s;
-  z-index: 8;
+  z-index: 6;
 }
 
 span.closebtn{
+  right: 15px;
+  font-size: 35px;
 	position:fixed;
 	left:50%;
 	top:5%;
