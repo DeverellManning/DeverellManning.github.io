@@ -2,7 +2,7 @@
 /* Hand-Written by Deverell Manning */
 /* DO NOT COPY WITHOUT PERMISION */
 /* Made for my website, deverellmanning.github.io */
-/* Last Updated 1/24/2022 */
+/* Last Updated 6/26/2024 */
 
 /* VARS */
 :root {
@@ -435,67 +435,76 @@ Page Section.Col2PicCent p{}
 
 /* Title */
 
-        Page Section div.Title {
-            text-align: center;
-            width:calc(100% + var(--Section-Padding)*2 + 2%*2);
-            left:calc(-1 * var(--Section-Padding) - 2%);
-            /* top:-40px; */
-            position:relative;
-	    z-index:2;
+Page Section div.Title {
+    text-align: center;
+    width:calc(100% + var(--Section-Padding)*2 + 2%*2);
+    left:calc(-1 * var(--Section-Padding) - 2%);
+    /* top:-40px; */
+    position:relative;
+    z-index:2;
 
-            /*padding-left:75;
-            padding-right:75;*/
-            margin-top:2%;
-            background:var(--chromaT);
-            color:var(--chromaA);
-            border-radius:18px;
-            border:solid var(--chromaA-D) 4px;
-        }
+    /*padding-left:75;
+    padding-right:75;*/
+    margin-top:2%;
+    background:var(--chromaT);
+    color:var(--chromaA);
+    border-radius:18px;
+    border:solid var(--chromaA-D) 4px;
+}
 
-        Page Section:first-child{
-          margin-top: 40px;
-    	  padding-bottom: 0;
-    	  padding-top: 0;
-        }
+Page Section:first-child{
+	margin-top: 40px;
+	padding-bottom: 0;
+	padding-top: 0;
+}
 
-            Page Section div.Title h1{
-                font-size:54px;
-                letter-spacing:2px;
-                margin:28px;
-            }
 
-            Page Section div.Title h3{
-                font-size:25px;
-                letter-spacing:1px;
-                margin:18px;
-            }
 
-            Page Section.Footer, Page div.Footer, Page span.Footer {
-		  display: grid;
-		  column-gap:10px;
-		  grid-template-columns: 20% 80%;
-            }
+Page Section div.Title h1{
+	font-size:54px;
+	letter-spacing:2px;
+	margin:28px;
+}
 
-	    Footer.Col2PicLeft img{
-	      width:400px;
-	      margin-left:20px;
-	      margin-right:20px;
-	    }
+Page Section div.Title h3{
+	font-size:25px;
+	letter-spacing:1px;
+	margin:18px;
+}
 
-            Page Section.Footer quote, Page div.Footer quote, Page span.Footer quote{
-              width:60%;
-              left:20%;
-              display:inline-block;
-              position:relative;
-              text-align:center;
+Page Section.Footer, Page div.Footer, Page span.Footer {
+	display: flex;
+	column-gap: 10px;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: center;
+}
 
-              background:var(--chromaT-L);
-              color:var(--chromaM-D2);
-              font-style:italic;
-              border-radius:5px;
-              border:dashed var(--chromaA) 2px;
-              margin:4px;
-            }
+Footer.Col2PicLeft img{
+	width:400px;
+	margin-left:20px;
+	margin-right:20px;
+}
+
+Page Section.Footer quote, Page div.Footer quote, Page span.Footer quote{
+	width:60%;
+	left:20%;
+	display:inline-block;
+	position:relative;
+	text-align:center;
+		
+	background:var(--chromaT-L);
+	color:var(--chromaM-D2);
+	font-style:italic;
+	border-radius:5px;
+	border:dashed var(--chromaA) 2px;
+	margin:4px;
+}
+
+Page Section.Footer img {
+	width: 128px;
+	height: 128px;
+}
 
 
 
