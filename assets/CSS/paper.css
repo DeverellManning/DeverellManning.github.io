@@ -11,6 +11,13 @@ div.Topbar a {
     display: inline-block;
     width: 100%;
     border: 2px outset black;
+
+    background: var(--chromaM-L2);
+    color: var(--chromaT-L2);
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-color: var(--chromaT-D2);
 }
 
 div.Topbar .right, div.Topbar .left {
