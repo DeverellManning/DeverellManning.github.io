@@ -168,7 +168,7 @@ a{
 }
 
 a:visited{
-  color:;
+  color:var(--chromaA-L2);
   background:;
 }
 
@@ -333,63 +333,63 @@ div.Sidebar {
 
 div.Topbar {
     position: fixed;
-    width: 100%;
+    width: 99%;
     height: min-content;
-
     z-index: 5;
-    top: 0px;left:0px;
-    padding: 4px;
+    top: 0px;
+    left:0px;
+    padding: 0.5%;
     padding-top: 5px;
-
     border-bottom: var(--chromaM-D2) thin solid;
     background:var(--chromaT);
+    text-align: center;
 }
 
-    div.Topbar .left, div.Topbar .cent, div.Topbar .right {
-        display: inline;
-        width:33%;
-        position: relative;
-    }
-    div.Topbar .left {
-        text-align: left;
-        left:0%;
-    }
+div.Topbar .left, div.Topbar .cent, div.Topbar .right {
+	display: inline-block;
+	width: 20%;
+	position: relative;
+}
 
-    div.Topbar .cent {
-        text-align: center;
-        left:33%;
-        
-    }
+div.Topbar .left {
+	text-align: left;
+	float: left;
+}
 
-    div.Topbar .right {
-        text-align:right;
-        float: right;
-    }
+div.Topbar .cent {
+	text-align: center;
+}
+
+div.Topbar .right {
+	text-align:right;
+	float: right;
+}
 
 /* PAGE */
 
 Page {
-    width: 75%;
+    /* width: 75%;
     position: relative;
-    left: 12.5%;
+    left: 12.5%; */
     background: var(--chromaM-D);
     --Section-Padding:50px;
 }
 
-    Page Section {
-        background: var(--chromaM);
-        color: var(--chromaT);
-        margin-bottom: 30px;
-        width: 70%;
-        position: relative;
-        padding: 10px;
-        padding-left:var(--Section-Padding); padding-right:var(--Section-Padding);
-
-        line-height:1.2em;
-        font-size:18px;
-        border-radius:5px;
-        height;
-    }
+Page Section {
+	background: var(--chromaM-D);
+	color: var(--chromaT-L);
+	margin-bottom: 30px;
+	width: 70%;
+	position: relative;
+	left: 10%;
+	padding: 10px;
+	padding-left:var(--Section-Padding);
+	padding-right:var(--Section-Padding);
+	line-height:1.2em;
+	font-size:18px;
+	border-radius:5px;
+	height;
+}
 
 /* SECTION LAYOUTS */
 Page Section.Col2PicLeft {

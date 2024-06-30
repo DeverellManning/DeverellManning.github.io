@@ -1,0 +1,35 @@
+div.Topbar {
+    width: 100%;
+    height: 24px;
+    padding: 0;
+    text-align: center;
+    line-height: 1.55;
+}
+
+div.Topbar a {
+    height: 21px;
+    display: inline-block;
+    width: 100%;
+    border: 2px outset black;
+}
+
+div.Topbar .right, div.Topbar .left {
+	width: 18%;
+	display: inline-grid;
+	position: relative;
+}
+
+div.Topbar .left {
+	text-align: left;
+	float: left;
+}
+
+div.Topbar .cent {
+	text-align: center;
+}
+
+div.Topbar .right {
+	text-align:right;
+	float: right;
+}
+
