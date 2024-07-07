@@ -1,42 +1,48 @@
 div.Gallery{
   background:var(--chromaT-D);
-  display:flex;
+  display: flex;
   position:relative;
-  border:double var(--chromaM-D2) 5px;
+  border: double var(--chromaM-D2) 5px;
   text-align: center;
-
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+}
 
+Section img {
+  width: revert;
 }
 
 img.tp{
   position: absolute;
+  border:none;
 }
 
 figure {
+  position:relative;
+  height: 250px;
+  width: 31%;
+
   border: black thin solid;
-  display: flex;
-  width: 22%;
-  height: min-content;
   opacity: 70%;
   margin: 5px;
   transition: 1.5s;
   text-align: center;
-  align-content: stretch;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
   overflow: clip;
   cursor:grab;
+
 }
 
-figure img {
+Section figure img {
   height: 250px;
-  position: relative;
+  width: 250px;
   opacity: inherit;
-  display: inline;
+  border: none;
+  position: absolute;
+  left: -9999px;
+  right: -9999px;
+  margin: auto;
+  /* From https://stackoverflow.com/questions/14562457/center-oversized-image-in-div */
 }
 
 
@@ -65,12 +71,11 @@ figure name,figure date{
   width: 100%;
   position: relative;
   list-style: none;
-  margin-top:1px;
-  
+  margin-top: 1px;
   outline:black solid thin;
-    color:var(--chromaA-D2);
+  color:var(--chromaA-D2);
   opacity:100%;
-    background:var(--chromaT-L2);
+  background:var(--chromaT-L2);
 }
 
 figure disc{

@@ -2,7 +2,7 @@
 /* Hand-Written by Deverell Manning */
 /* DO NOT COPY WITHOUT PERMISION */
 /* Made for my website, deverellmanning.github.io */
-/* Last Updated 6/26/2024 */
+/* Last Updated 7/6/2024 */
 
 /* VARS */
 :root {
@@ -37,11 +37,11 @@
 
 @font-face {
   font-family: Aftetir;
-  src: url("/assets/fonts/Aftetir.otf"), url("./Fonts/Aftetir.ttf");
+  src: url("/assets/fonts/Aftetir.otf"), url("/assets/fonts/Aftetir.ttf");
 }
 @font-face {
   font-family: Aftetir;
-  src: url("/assets/fonts/AftetirBold.otf"), url("./Fonts/Aftetir.ttf");
+  src: url("/assets/fonts/AftetirBold.otf"), url("/assets/fonts/Aftetir.ttf");
   font-weight: bold;
 }
 @font-face {
@@ -106,8 +106,14 @@ u{
 
 i{}
 
+pre {
+    font-family: 'Lucida';
+    font-size: 16px;
+}
+
 code{
-  font: Lucida;
+  font-family: Lucida;
+  font-size: 16px;
   background: #596364;
   display:block;
   padding:7px;
@@ -130,11 +136,13 @@ time{
 }
 
 abbr{
-
+  text-decoration: underline dotted 1px;
 }
 
 address{
-
+	display: inline-block;
+	margin-inline-start: 1em;
+	margin-inline-end: 1em;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -274,6 +282,27 @@ table.LightTable tr:nth-child(even) {background-color: var(--chromaA-L2);}
   width:100%;
 }
 
+div.icon-list img {
+    height: 32px;
+    width: fit-content;
+    border: none;
+    box-shadow: 0px 0px 5px 2px #8c8c8c;
+    background: #8c8c8c;
+    margin-right: 10px;
+}
+
+div.icon-list img:hover {
+    box-shadow: 0px 0px 6px 3px #AAA;
+    background: #AAA;
+}
+
+div.icon-list {
+    width: 100%;
+    border-bottom: solid rosybrown;
+    text-align: center;
+    padding-top: 8px;
+}
+
 /* SIDEBAR */
 
 div.Sidebar {
@@ -322,11 +351,21 @@ div.Sidebar {
         background:var(--chromaT-D2);
         border: var(--chromaT) solid 5px;
 
-        transition:2s;
+        transition:1s;
         justify-content: center;
         flex-wrap: wrap;
         align-content: center;
     }
+
+.Puller:before {
+    content: "";
+    position: absolute;
+    right: 10%;
+    top: 47%;
+    width: 80%;
+    height: 6%;
+    background: linear-gradient(to bottom, black, black 20%, #ffffff00 20%, #ffffff00 40%, black 40%, black 60%, #ffffff00 60%, #ffffff00 80%, black 80%, black 100%);
+}
 
     div.Sidebar:hover .Puller{
         width:4%;
@@ -397,11 +436,21 @@ Page Section {
 
 /* SECTION LAYOUTS */
 Page Section img{
-	width:100%;
+	width:98%;
 }
 
 Page Section div {
 	align-content: inherit;
+}
+
+div.scroll-box {
+    width: 98%;
+    border: solid 2px;
+    border-color: slategrey;
+    background: var(--chromaM-D2);
+    /* color: var(--chromaM-D2); */
+    padding-top: 5px;
+    padding: 2px;
 }
 
 Page Section.Col2PicLeft {
@@ -498,6 +547,10 @@ Page Section.Footer quote, Page div.Footer quote, Page span.Footer quote{
 	border-radius:5px;
 	border:dashed var(--chromaA) 2px;
 	margin:4px;
+}
+
+Page Section.Footer img{
+	width:revert;
 }
 
 Page Section.Footer img.logo {
