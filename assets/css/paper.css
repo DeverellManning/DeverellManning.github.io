@@ -40,3 +40,7 @@ div.Topbar .right {
 	float: right;
 }
 
+body page section p {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
