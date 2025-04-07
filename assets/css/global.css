@@ -3,19 +3,16 @@ body{
 }
 
 div.title{
-
-text-align:center;
-
+	text-align:center;
 }
 
 div.sidebar{
-float:right;
-  border:solid black thick;
+	float:right;
+	border:solid black thick;
 }
 
 div.sidebar iframe{
-  
-  float:right;
-  overflow: hidden;
-  height:40%;
+	float:right;
+	overflow: hidden;
+	height:40%;
 }
