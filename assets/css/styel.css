@@ -409,6 +409,10 @@ div.Topbar .right {
 	float: right;
 }
 
+div.Topbar a {
+	color: var(--chromaA-D2);
+}
+
 /* PAGE */
 
 Page {
@@ -511,12 +515,14 @@ Page Section div.Title h1{
 	font-size:54px;
 	letter-spacing:2px;
 	margin:28px;
+	line-height: 1em;
 }
 
 Page Section div.Title h3{
 	font-size:25px;
 	letter-spacing:1px;
 	margin:18px;
+	line-height: 1em;
 }
 
 /* FOOTER Styles */
