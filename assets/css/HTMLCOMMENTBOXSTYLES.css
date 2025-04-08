@@ -75,6 +75,10 @@ div#HCB_comment_form_box form#hcb_form div.home-desc a {
 #HCB_comment_box #HCB_comment_form_box {
     padding-bottom: 1em;
     width: 70%;
+    border: 1px brown solid;
+    margin-bottom: 1em;
+    background: #595858;
+    padding: 1em;
 }
 
 #HCB_comment_box .hcb-err {
@@ -88,7 +92,7 @@ div#HCB_comment_form_box form#hcb_form div.home-desc a {
 }
 
 #HCB_comment_box #comments_list {
-    flex: 1;
+    flex: 2;
     overflow: auto;
     padding-right: 8px;
     border-top: var(--cb-BL) solid 3px;
@@ -129,7 +133,7 @@ div#HCB_comment_form_box form#hcb_form div.home-desc a {
 }
 #HCB_comment_box #hcb_form .hcb-door-out {width: 28px;}
 #HCB_comment_box #hcb_form .hcb-door-in {width: 28px;}
-#HCB_comment_box #hcb_form .home-desc {margin-top: 12px;}
+#HCB_comment_box #hcb_form .home-desc {margin-top: 12px;font-size: 9px;}
 #HCB_comment_box #hcb_form #hcb_subscribe {
     margin-top: 12px;
     display: inline-block;
